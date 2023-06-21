@@ -19,10 +19,10 @@ function Header() {
             <Image src="/src/imagen/Cisnenegro.png" alt="Imagen" boxSize="200px" mb={1} w={800}>          
             </Image>
             <Box position="absolute" top="70%" left="50%" transform="translate(-50%, -50%)">
-                  <Button colorScheme="blue" mr={2} bg="transparent" >
+                  <Button colorScheme="blue" mr={2} bg="transparent" boxShadow='dark-lg' p='4' rounded='md'>
                     VER DETALLES
                   </Button>
-                  <Button colorScheme="green" bg="transparent" >
+                  <Button colorScheme="green" bg="transparent" boxShadow='dark-lg' p='4' rounded='md' >
                      VER VIDEO</Button>
                   </Box>
                   <Box
@@ -41,11 +41,12 @@ function Header() {
           <Box position="relative">
                <Image src="/src/imagen/Cisne_negro.jpg" alt="Imagen" boxSize="250px" />
                 <VStack spacing={2}>
-                    <Box position="absolute" top="70%" left="13%" transform="translate(-50%, -50%)">
-                       <Button colorScheme="blue" mr={1} bg="transparent" >
+                    <Box position="absolute" top="70%" left="14%" transform="translate(-50%, -50%)">
+                       
+                       <Button colorScheme="blue" mr={1} bg="transparent" boxShadow='dark-lg' p='3' rounded='md' >
                           VER DETALLES
                       </Button>
-                      <Button colorScheme="green" bg="transparent" >
+                      <Button colorScheme="green" bg="transparent" boxShadow='dark-lg' p='3' rounded='md' >
                            VER VIDEO
                      </Button>
                      </Box>

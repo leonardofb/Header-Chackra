@@ -1,4 +1,4 @@
-import Header from "./Header.js"
+import Header from "./Header.jsx"
 function App() {
    return (
        <div>
